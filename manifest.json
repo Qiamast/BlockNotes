@@ -1,7 +1,7 @@
 {
   "name": "BlackNotes",
-  "description": "Note from blocked user on twitter",
-  "version": "1.0.1",
+  "description": "Note the reason for blocking a Twitter user",
+  "version": "1.0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
@@ -10,16 +10,16 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/assets/icons/BlackNotes - 16px.png",
+      "32": "/assets/icons/BlackNotes - 32px.png",
+      "48": "/assets/icons/BlackNotes - 64px.png",
+      "128": "/assets/icons/BlackNotes - 128px.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/assets/icons/BlackNotes - 16px.png",
+    "32": "/assets/icons/BlackNotes - 32px.png",
+    "48": "/assets/icons/BlackNotes - 64px.png",
+    "128": "/assets/icons/BlackNotes - 128px.png"
   }
 }
